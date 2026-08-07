@@ -44,6 +44,7 @@ export const projects = [
       "A modern E-Commerce platform with authentication, payments and dashboard.",
 
     image: shojMart,
+    
 
     technologies: [
       "React.js",
