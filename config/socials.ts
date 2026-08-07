@@ -23,7 +23,7 @@ export const socials = [
   },
   {
     name: "Email",
-    href: "mailto:your@email.com",
+    href: "mailto:hayderbd4290@gmail.com",
     icon: Mail,
   },
 ] as const;
