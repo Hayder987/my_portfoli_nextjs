@@ -1,7 +1,7 @@
 # 🚀 Hayder Ali - Full Stack Developer Portfolio
 
 <p align="center">
-  <img src="./public/img/portfolio-banner.png" alt="Portfolio Banner" />
+  <img src="./public/img/banner.png" alt="Portfolio Banner" />
 </p>
 
 <p align="center">
@@ -125,6 +125,8 @@ The website focuses on:
 
 nextjs-portfolio
 
+---
+
 │
 ├── app
 │ ├── layout.tsx
@@ -176,7 +178,6 @@ nextjs-portfolio
 ├── pnpm-lock.yaml
 ├── next.config.ts
 └── tsconfig.json
-
 
 
 ---
