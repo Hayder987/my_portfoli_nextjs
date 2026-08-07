@@ -6,6 +6,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { metadata } from "@/lib/metadata";
 import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 
 export { metadata };
 
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body>
         <Navbar/>
         <ThemeProvider>{children}</ThemeProvider>
+        <Footer/>
       </body>
     </html>
   );

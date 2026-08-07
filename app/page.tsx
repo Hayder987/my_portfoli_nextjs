@@ -1,4 +1,6 @@
+import BackToTop from "@/components/common/back-to-top";
 import Hero from "@/components/hero/Hero";
+import DevelopmentProcess from "@/components/process/development-process";
 import About from "@/components/sections/about";
 import Contact from "@/components/sections/contact";
 import Projects from "@/components/sections/projects";
@@ -19,7 +21,10 @@ export default function HomePage() {
       <Skills />
       <Projects/>
       <Services/>
+       <DevelopmentProcess />
       <Contact/>
+
+       <BackToTop />
     </main>
   );
 }

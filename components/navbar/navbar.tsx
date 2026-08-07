@@ -26,7 +26,7 @@ export default function Navbar() {
       className="fixed inset-x-0 top-0 z-50"
     >
       <div
-        className={`mx-auto mt-4 flex h-18 max-w-7xl items-center justify-between rounded-2xl border px-4 transition-all duration-300 sm:px-6 lg:px-8 ${
+        className={`mx-auto mt-4 flex h-18 max-w-350 items-center justify-between rounded-2xl border px-4 transition-all duration-300 sm:px-6 lg:px-8 ${
           isScrolled
             ? "border-border/60 bg-background/75 shadow-xl backdrop-blur-xl"
             : "border-transparent bg-transparent"

@@ -21,12 +21,13 @@ export default function MobileNav() {
   return (
     <div className="lg:hidden">
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger>
-          <Button size="icon" variant="outline" className="rounded-xl">
-            <Menu className="h-5 w-5" />
-
-            <span className="sr-only">Open Menu</span>
-          </Button>
+        <SheetTrigger
+          render={
+            <Button size="icon" variant="outline" className="rounded-xl" />
+          }
+        >
+          <Menu className="h-5 w-5" />
+          <span className="sr-only">Open Menu</span>
         </SheetTrigger>
 
         <SheetContent side="right" className="w-75 p-0">
