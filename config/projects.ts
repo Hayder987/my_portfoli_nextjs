@@ -1,4 +1,5 @@
 import rentBanner from "../public/img/rentBanner.png"
+import shojMart from "../public/img/shohojmart.png"
 
 export const projects = [
   {
@@ -35,29 +36,29 @@ export const projects = [
 
     featured: true,
 
-    title: "RentNest",
+    title: "ShohojMart+",
 
-    slug: "rentnest",
+    slug: "shohojmart",
 
     description:
-      "A modern property rental platform with authentication, payments and dashboard.",
+      "A modern E-Commerce platform with authentication, payments and dashboard.",
 
-    image: rentBanner,
+    image: shojMart,
 
     technologies: [
-      "Next.js",
-      "TypeScript",
-      "Prisma",
-      "PostgreSQL",
+      "React.js",
+      "JavaScript ES6",
+      "MongoDB",
+      "FireBase",
       "Tailwind CSS",
     ],
 
     github: {
-      frontend: "https://github.com/Hayder987/RentNest_nextjs_frontend",
-      backend: "https://github.com/Hayder987/B7A4_RentNest_Prisma_Backend",
+      frontend: "https://github.com/Hayder987/shohoj-mart",
+      backend: "https://github.com/Hayder987/shohoj-mart-server",
     },
 
-    live: "https://rent-nest-nextjs-frontend.vercel.app",
+    live: "https://shohojmart-f8a93.web.app",
   },
 ] as const;
 
