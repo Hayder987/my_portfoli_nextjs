@@ -5,3 +5,6 @@ export * from "./services";
 export * from "./site";
 export * from "./skills";
 export * from "./socials";
+export * from "./about";
+export * from "./site";
+export * from "./allSkill";

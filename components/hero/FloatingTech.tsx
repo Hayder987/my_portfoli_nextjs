@@ -1,17 +1,19 @@
 "use client";
 
+
 import { heroTech } from "@/config/heroTech";
-import TechBadge from "./TechBadge";
+import TechCard from "./TechCard";
 
 export default function FloatingTech() {
   return (
     <>
       {heroTech.map((tech) => (
-        <TechBadge
+        <TechCard
           key={tech.name}
           name={tech.name}
           logo={tech.logo}
           className={tech.className}
+          delay={tech.delay}
         />
       ))}
     </>

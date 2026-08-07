@@ -11,7 +11,7 @@ import HeroImage from "./HeroImage";
 
 export default function HeroContent() {
   return (
-    <div className="grid items-center gap-16 lg:grid-cols-2">
+    <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
       {/* Left Side */}
 
       <div className="space-y-8">

@@ -11,15 +11,17 @@ export default function ExperienceBadge() {
       className="
         glass
         absolute
-        -left-8
-        bottom-12
+        left-0
+        bottom-6
+        lg:-left-8
+        lg:-bottom-8
         z-30
         rounded-2xl
         px-5
         py-4
       "
     >
-      <h3 className="gradient-text text-3xl font-black">
+      <h3 className="gradient-text  text-3xl font-black">
         2+
       </h3>
 

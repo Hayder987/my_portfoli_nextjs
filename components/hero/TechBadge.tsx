@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
 
 interface TechBadgeProps {
   name: string;
-  logo: string;
+  logo: StaticImageData;
   className: string;
 }
 

@@ -1,45 +1,51 @@
-import nextJs from "../logo/nextjs.svg"
-import react from "../logo/react_light.svg"
-import typescript from "../logo/react_light.svg"
-import nodejs from "../logo/nodejs.svg"
-import express from "../logo/expressjs.svg"
-import mongoDB from "../logo/mongodb-icon-light.svg"
-import prisma from "../logo/react_light.svg"
+import nextJs from "../logo/nextjs.svg";
+import react from "../logo/react_light.svg";
+import typescript from "../logo/typescript.svg";
+import nodejs from "../logo/nodejs.svg";
+import prisma from "../logo/prisma_dark.svg";
+import postgres from "../logo/postgresqll.svg";
 
 export const heroTech = [
   {
     name: "Next.js",
-    logo: {nextJs},
-    className: "-left-8 top-12",
+    logo: nextJs,
+    className:
+      "left-2 top-6 md:left-0 md:top-10 xl:-left-8 xl:top-14",
+    delay: 0,
   },
   {
     name: "React",
-    logo: {react},
-    className: "-right-6 top-20",
+    logo: react,
+    className:
+      "right-2 top-12 md:right-0 md:top-24 xl:-right-8 xl:top-24",
+    delay: 0.2,
   },
   {
-    name: "TypeScript",
-    logo: {typescript},
-    className: "-left-10 bottom-24",
-  },
-  {
-    name: "Node.js",
-    logo: {nodejs},
-    className: "-right-8 bottom-14",
-  },
-  {
-    name: "Express.js",
-    logo: {express},
-    className: "left-10 -top-8",
-  },
-  {
-    name: "MongoDB",
-    logo: {mongoDB},
-    className: "right-10 -top-8",
+    name: "Postgres",
+    logo: postgres,
+    className:
+      "right-2 top-12 md:right-0 md:top-24 xl:-right-8 xl:top-24",
+    delay: 0.4,
   },
   {
     name: "Prisma",
-    logo: {prisma},
-    className: "left-1/2 -bottom-8 -translate-x-1/2",
+    logo: prisma,
+    className:
+      "left-1/2 -top-3 -translate-x-1/2 md:-top-5 xl:-top-8",
+    delay: 0.6,
+  },
+  {
+    name: "Node.js",
+    logo: nodejs,
+    className:
+      "right-2 bottom-20 md:right-0 md:bottom-24 xl:-right-8 xl:bottom-20",
+    delay: 0.8,
+  },
+  {
+    name: "TypeScript",
+    logo: typescript,
+    className:
+      "left-2 bottom-20 md:left-0 md:bottom-24 xl:-left-8 xl:bottom-20",
+    delay: 1.0,
   },
 ] as const;

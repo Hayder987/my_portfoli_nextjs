@@ -1,15 +1,39 @@
+import GradientMesh from "./GradientMesh";
 import GridBackground from "./GridBackground";
+import Particles from "./Particles";
+
 
 export default function BackgroundEffects() {
+
   return (
-    <>
+    <div
+      className="
+        pointer-events-none
+        absolute
+        inset-0
+        -z-10
+        overflow-hidden
+      "
+    >
+
+      <GradientMesh />
+
       <GridBackground />
 
-      <div className="pointer-events-none absolute left-0 top-0 -z-10 h-112.5 w-112.5 rounded-full bg-primary/20 blur-[140px]" />
+      <Particles />
 
-      <div className="pointer-events-none absolute right-0 top-40 -z-10 h-112.5 w-112.5 rounded-full bg-secondary/20 blur-[140px]" />
 
-      <div className="pointer-events-none absolute bottom-0 left-1/2 -z-10 h-112.5 w-112.5 -translate-x-1/2 rounded-full bg-accent/20 blur-[140px]" />
-    </>
+      {/* Dark Overlay */}
+      <div
+        className="
+          absolute
+          inset-0
+
+          bg-[radial-gradient(circle_at_center,transparent,rgba(0,0,0,.75))]
+        "
+      />
+
+
+    </div>
   );
 }

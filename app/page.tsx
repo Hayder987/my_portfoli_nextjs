@@ -1,17 +1,19 @@
-import BackgroundEffects from "@/components/effects/BackgroundEffects";
 import Hero from "@/components/hero/Hero";
+import About from "@/components/sections/about";
+import Skills from "@/components/sections/skills";
+
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen overflow-hidden">
-      <BackgroundEffects />
-      <Hero/>
-
-      <div className="flex min-h-screen items-center justify-center">
-        <h1 className="gradient-text text-6xl font-bold">
-          Portfolio Coming Soon
-        </h1>
-      </div>
+    <main
+      className="
+        min-h-screen
+        overflow-hidden
+      "
+    >
+      <Hero />
+      <About />
+      <Skills />
     </main>
   );
 }
