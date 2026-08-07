@@ -22,7 +22,7 @@ export default function ExperienceBadge() {
       "
     >
       <h3 className="gradient-text  text-3xl font-black">
-        2+
+        1.5+
       </h3>
 
       <p className="text-sm text-muted-foreground">

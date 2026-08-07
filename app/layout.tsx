@@ -5,6 +5,7 @@ import "./globals.css";
 
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { metadata } from "@/lib/metadata";
+import Navbar from "@/components/navbar/navbar";
 
 export { metadata };
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       className={`${heading.variable} ${body.variable}`}
     >
       <body>
+        <Navbar/>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

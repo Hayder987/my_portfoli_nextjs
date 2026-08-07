@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-interface SectionHeadingProps {
+export interface SectionHeadingProps {
   badge?: string;
   title: string;
   description?: string;

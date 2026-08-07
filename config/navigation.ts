@@ -12,10 +12,6 @@ export const navigation = [
     href: "#skills",
   },
   {
-    label: "Experience",
-    href: "#experience",
-  },
-  {
     label: "Projects",
     href: "#projects",
   },

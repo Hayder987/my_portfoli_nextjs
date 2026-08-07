@@ -30,7 +30,7 @@ export const siteConfig = {
     tagline:
       "Building fast, scalable and beautiful web applications with modern technologies.",
 
-    experience: "2+",
+    experience: "1.5+",
 
     projects: "20+",
   },

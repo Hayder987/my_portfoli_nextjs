@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 interface GradientButtonProps {
-  href: string;
+  href: string ;
   children: React.ReactNode;
 }
 

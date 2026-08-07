@@ -31,7 +31,7 @@ export const projects = [
     live: "https://rent-nest-nextjs-frontend.vercel.app",
   },
    {
-    id: 1,
+    id: 2,
 
     featured: true,
 

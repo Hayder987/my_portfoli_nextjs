@@ -9,17 +9,20 @@ export const aboutData = {
 
   stats: [
     {
-      value: "2+",
+      value: "1.5",
+      suffix: "+",
       label: "Years Experience",
     },
 
     {
-      value: "20+",
+      value: "20",
+    suffix: "+",
       label: "Projects Completed",
     },
 
     {
-      value: "15+",
+      value: "15",
+      suffix: "+",
       label: "Technologies Used",
     },
   ],
