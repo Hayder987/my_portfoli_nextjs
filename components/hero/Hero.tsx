@@ -7,7 +7,7 @@ import HeroContent from "./HeroContent";
 export default function Hero() {
   return (
     <section
-    id="#"
+    id="#home"
       className="
         relative
         min-h-screen

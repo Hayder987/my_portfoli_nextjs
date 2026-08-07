@@ -1,11 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-
 import DesktopNav from "./desktop-nav";
 import MobileNav from "./mobile-nav";
 import ResumeButton from "./resume-button";
-
 import { useNavbar } from "./use-navbar";
 import Logo from "../common/Logo";
 import ScrollProgress from "./scroll-progress";
