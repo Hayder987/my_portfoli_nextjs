@@ -8,6 +8,7 @@ import AvailabilityBadge from "./AvailabilityBadge";
 import HeroSocials from "./HeroSocials";
 import HeroStats from "./HeroStats";
 import HeroImage from "./HeroImage";
+import Link from "next/link";
 
 export default function HeroContent() {
   return (
@@ -45,7 +46,7 @@ export default function HeroContent() {
           <div className="flex flex-wrap gap-4">
             <GradientButton href="#projects">View Projects</GradientButton>
 
-            <a
+            <Link
               href={siteConfig.resume}
               download
               className="inline-flex items-center justify-center
@@ -62,7 +63,7 @@ export default function HeroContent() {
               "
             >
               Download Resume
-            </a>
+            </Link>
           </div>
         </FadeIn>
 

@@ -2,15 +2,14 @@
 
 import Link from "next/link";
 import { Download } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/config";
 
 interface ResumeButtonProps {
   href?: string;
 }
 
 export default function ResumeButton({
-  href = "/resume.pdf",
 }: ResumeButtonProps) {
   return (
     <Button
@@ -21,7 +20,7 @@ export default function ResumeButton({
       to-accent py-4"
     >
       <Link
-        href={href}
+        href={siteConfig.resume}
         target="_blank"
         className="flex justify-center items-center "
         download

@@ -6,7 +6,7 @@ export const siteConfig = {
   description:
     "Full Stack Developer specializing in modern web applications using Next.js, React, TypeScript, Node.js, MongoDB, Mongoose and PostgreSQL. ",
 
-  url: "https://your-domain.com",
+  url: "http://localhost:3000",
 
   email: "hayderbd4290@gmail.com",
 
@@ -14,7 +14,7 @@ export const siteConfig = {
 
   location: "Bangladesh",
 
-  resume: "/resume/Hayder-Ali-Resume.pdf",
+  resume: "/resume/myResume.pdf",
 
   availability: "Available for Freelance",
 
@@ -35,3 +35,4 @@ export const siteConfig = {
     projects: "20+",
   },
 } as const;
+
