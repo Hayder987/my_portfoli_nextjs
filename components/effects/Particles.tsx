@@ -41,15 +41,12 @@ export default function Particles() {
             ease: "linear",
           }}
           className="
-absolute
-
-h-2
-w-2
-
-rounded-full
-
-bg-primary/40
-"
+             absolute
+             h-2
+             w-2
+             rounded-full
+             bg-[#6812f19a]
+             "
           style={{
             left: `${particle.left}%`,
 
